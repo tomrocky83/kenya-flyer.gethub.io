@@ -1,0 +1,38 @@
+html {
+    box-sizing: border-box;
+  }
+  
+  *,
+  *::before,
+  *::after {
+    box-sizing: inherit;
+  }
+
+  .cover {
+      background: url("https://s3.amazonaws.com/images.wpr.com/flag-pages/png1000/ke.png");
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center;
+  }
+  .front{
+      color: white;
+      font-size: 200%;
+      text-align: center;
+      
+  }
+  .btn{
+    border: 2px solid black;
+    background: transparent;
+    cursor: pointer;
+    padding: 25px 25px;
+    background-color: rgba(34, 139, 34, 0.767);
+    color: white;
+}
+
+.w {
+    margin: 18vh;
+    color: rgba(34, 139, 34);
+}
+
+
+
