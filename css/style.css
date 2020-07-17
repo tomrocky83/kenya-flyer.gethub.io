@@ -16,7 +16,7 @@ html {
 }
 
 .front {
-    color: white;
+    color: #ffffff;
     font-size: 200%;
     text-align: center;
 }
@@ -26,13 +26,29 @@ html {
     background: transparent;
     cursor: pointer;
     padding: 25px 25px;
-    background-color: rgba(34, 139, 34, 0.767);
+    background-color: #228b22c4;
     color: white;
+}
+
+input {
+    border: 1px solid #ff0000;
+    cursor: pointer;
+    background: #228b22;
+    padding: 15px 15px;
+}
+
+h2 {
+    text-align: center;
+}
+
+input {
+    margin: 0 auto;
+    display: block;
 }
 
 .w {
     margin: 18vh;
-    color: rgba(34, 139, 34);
+    color: #228b22;
 }
 
 img {
@@ -64,15 +80,9 @@ p {
 
 ol,
 p {
-    border: 1px solid rgb(255, 230, 0);
+    border: 1px solid #ffe600;
     padding: 1em;
 }
-
-
-/* #sidebar {
-    border: 1px solid rgb(255, 230, 0);
-    margin-left: 50rem;
-} */
 
 .coat {
     width: 65%;
