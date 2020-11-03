@@ -105,11 +105,12 @@ li {
 @media (max-width: 780px) {
     body.cover {
         background-size: cover;
+        background-position: center;
         line-height: inherit;
         margin: -97px;
     }
     img {
-        width: auto;
+        width: 100%;
         margin: auto;
     }
     .contanier {
